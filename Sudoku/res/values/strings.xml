@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sudoku</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_difficulty">Difficulty</string>
+    <string name="title_activity_diffic">Diffic</string>
+    <string name="title_activity_howtoplay">Howtoplay</string>
+    <string name="title_activity_congrats">Congrats</string>
+    <string name="title_activity_sudoku_easy_game">SudokuEasyGame</string>
+    <string name="chronometer">Chronometer</string>
+    <string name="title_activity_sudoku_medium_game">SudokuMediumGame</string>
+    <string name="title_activity_sudoku_evil_game">SudokuEvilGame</string>
+
+</resources>

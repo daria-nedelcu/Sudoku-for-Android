@@ -1,0 +1,771 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blankgame"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SudokuEasyGame" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+    <EditText
+        android:id="@+id/editTextEasy1"
+        android:layout_width="30dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="6dp"
+        android:layout_height="35dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+
+        </EditText>
+    
+    <EditText
+        android:id="@+id/editTextEasy2"
+        android:layout_width="30dp"
+        android:layout_marginTop="17dp"
+        android:layout_height="35dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+
+      
+    </EditText>
+    
+     <EditText
+        android:id="@+id/editTextEasy3"
+        android:layout_width="30dp"
+        android:layout_marginTop="17dp"
+        android:layout_height="35dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+
+        
+    </EditText>
+    
+      <EditText
+        android:id="@+id/editTextEasy4"
+        android:layout_width="30dp"
+        android:layout_marginTop="17dp"
+        android:layout_height="35dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+
+        
+    </EditText>
+    
+       <EditText
+        android:id="@+id/editTextEasy5"
+        android:layout_width="30dp"
+        android:layout_marginTop="17dp"
+        android:layout_height="35dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+
+       
+    </EditText>
+    
+        <EditText
+        android:id="@+id/editTextEasy6"
+        android:layout_width="30dp"
+        android:layout_marginTop="17dp"
+        android:layout_height="35dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+
+       
+    </EditText>
+    
+         <EditText
+        android:id="@+id/editTextEasy7"
+        android:layout_width="31dp"
+        android:layout_marginTop="17dp"
+        android:layout_height="35dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+
+       
+    </EditText>
+    
+          <EditText
+        android:id="@+id/editTextEasy8"
+        android:layout_width="31dp"
+        android:layout_marginTop="17dp"
+        android:layout_height="35dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+
+       
+    </EditText>
+    
+           <EditText
+        android:id="@+id/editTextEasy9"
+        android:layout_width="31dp"
+        android:layout_marginTop="17dp"
+        android:layout_height="35dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+		</EditText>
+        
+        </LinearLayout>
+    
+           
+         <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+           
+             <EditText
+        android:id="@+id/editTextEasy10"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="6dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy11"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy12"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy13"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy14"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy15"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy16"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy17"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy18"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        </LinearLayout>
+        
+          <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+           
+             <EditText
+        android:id="@+id/editTextEasy19"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="6dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy20"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy21"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy22"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy23"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy24"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy25"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy26"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy27"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        </LinearLayout>
+        
+           <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+           
+             <EditText
+        android:id="@+id/editTextEasy28"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="6dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy29"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy30"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy31"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy32"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy33"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy34"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy35"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy36"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        </LinearLayout>
+        
+            <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+           
+             <EditText
+        android:id="@+id/editTextEasy37"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="6dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy38"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy39"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy40"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy41"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy42"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy43"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy44"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy45"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        </LinearLayout>
+           
+           
+         <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+           
+             <EditText
+        android:id="@+id/editTextEasy46"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="6dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy47"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy48"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy49"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy50"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy51"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy52"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy53"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy54"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        </LinearLayout>
+              
+            <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+           
+             <EditText
+        android:id="@+id/editTextEasy55"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="6dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy56"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy57"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy58"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy59"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy60"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy61"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy62"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy63"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        </LinearLayout>
+           
+            
+             <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+           
+             <EditText
+        android:id="@+id/editTextEasy64"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="6dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy65"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy66"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy67"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy68"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy69"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy70"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy71"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy72"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        </LinearLayout>
+        
+             
+              <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+           
+             <EditText
+        android:id="@+id/editTextEasy73"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="6dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy74"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy75"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy76"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy77"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy78"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy79"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy80"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        
+             <EditText
+        android:id="@+id/editTextEasy81"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:inputType="number" >
+        </EditText>
+        </LinearLayout>
+           
+           
+
+    <Chronometer
+        android:id="@+id/chronometerEasy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/chronometer" />
+
+    <ImageView
+        android:id="@+id/imageViewCheckEasy"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="256dp"
+        android:layout_height="72dp"
+        android:src="@drawable/check" />
+
+</LinearLayout>
